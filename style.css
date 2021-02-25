@@ -96,7 +96,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: rgb(248, 244, 244);
     font-size: 35px;
     font-weight: 600;
 }
@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: rgb(245, 239, 239);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -123,7 +123,7 @@ section .title::after{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: rgb(250, 244, 244);
 }
 
 /* menu btn styling */
@@ -165,9 +165,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/black.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: rgb(250, 244, 244);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -362,10 +362,10 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 60%;
 }
 .skills-content .right .php::before{
     width: 50%;
